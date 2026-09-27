@@ -1,0 +1,18 @@
+{
+  "prompt_version": "triage-v3",
+  "model": "mock-heuristic-1",
+  "threshold": 0.75,
+  "n": 36,
+  "category_acc": 0.917,
+  "auto_precision": 1.0,
+  "auto_coverage": 0.667,
+  "critical_errors": 0,
+  "per_category_acc": {
+    "auth_session": 0.8,
+    "cache": 0.833,
+    "client_config": 1.0,
+    "permissions": 0.8,
+    "unknown": 1.0,
+    "update_error": 1.0
+  }
+}
